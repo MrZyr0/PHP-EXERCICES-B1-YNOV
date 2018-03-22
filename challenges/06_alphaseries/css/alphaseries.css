@@ -1,0 +1,35 @@
+body {
+  padding-top: 3.5rem;
+}
+
+.jumbotron {
+    background-color: #666;
+}
+
+.jumbotron-background {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+    color: white;
+}
+
+.stars {
+    font-size: 0.6em;
+    vertical-align: middle;
+    cursor: default;
+}
+
+.page-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
