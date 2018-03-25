@@ -20,7 +20,7 @@
 <body>
     <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html">AlphaSeries</a>
+        <a class="navbar-brand" href="index.php">AlphaSeries</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,25 +29,31 @@
         <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="index.php">
                         <i class="fas fa-home"></i> Accueil
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="classement.html">
-                        <i class="fas fa-trophy"></i> Classement
+                    <a class="nav-link" href="classement.php">
+                         <i class="fas fa-trophy"></i> Classement
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="serie.html">
+                    <a class="nav-link" href="serie.php">
                         <i class="fas fa-random"></i> Une série aléatoire
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="test.php">
+                        <i class="fas"></i> Zone de test
+                    </a>
+                </li>
+
             </ul>
 
             <!-- Formulaire de recherche -->
-            <form action="recherche.html" method="post" class="form-inline my-2 my-lg-0">
-                <input value="game" name="search" class="form-control mr-sm-2" type="text" placeholder="Rechercher une série" aria-label="Rechercher une série">
+            <form action="recherche.php" method="post" class="form-inline my-2 my-lg-0">
+                <input name="search" class="form-control mr-sm-2" type="text" placeholder="Rechercher une série" aria-label="Rechercher une série">
                 <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
                     <i class="fa fa-search"></i> <span class="d-md-none">Rechercher</span>
                 </button>
@@ -84,7 +90,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="serie.html">Game of Thrones</a>
+                                        <a href="serie.php">Game of Thrones</a>
 
                                         <!-- Affichage de la note avec le bon nombre d'étoiles et un tooltip -->
                                         <span class="stars text-info" data-toggle="tooltip" data-placement="top" title="4.80">
@@ -115,7 +121,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="serie.html">Video Game High School</a>
+                                        <a href="serie.php">Video Game High School</a>
 
                                         <!-- Affichage de la note avec le bon nombre d'étoiles et un tooltip -->
                                         <span class="stars text-info" data-toggle="tooltip" data-placement="top" title="2.70">
@@ -140,13 +146,13 @@
                     <!-- BONUS Pagination si plus de 10 résultats -->
                     <nav aria-label="Page navigation example">
                         <ul class="pagination">
-                            <li class="page-item"><a class="page-link" href="classement.html">&laquo;</a></li>
-                            <li class="page-item active"><a class="page-link" href="classement.html">1</a></li>
-                            <li class="page-item"><a class="page-link" href="classement.html">2</a></li>
-                            <li class="page-item"><a class="page-link" href="classement.html">3</a></li>
-                            <li class="page-item disabled"><a class="page-link" href="classement.html">…</a></li>
-                            <li class="page-item"><a class="page-link" href="classement.html">99</a></li>
-                            <li class="page-item"><a class="page-link" href="classement.html">&raquo;</a></li>
+                            <li class="page-item"><a class="page-link" href="classement.php">&laquo;</a></li>
+                            <li class="page-item active"><a class="page-link" href="classement.php">1</a></li>
+                            <li class="page-item"><a class="page-link" href="classement.php">2</a></li>
+                            <li class="page-item"><a class="page-link" href="classement.php">3</a></li>
+                            <li class="page-item disabled"><a class="page-link" href="classement.php">…</a></li>
+                            <li class="page-item"><a class="page-link" href="classement.php">99</a></li>
+                            <li class="page-item"><a class="page-link" href="classement.php">&raquo;</a></li>
                         </ul>
                     </nav>
                 </div>
