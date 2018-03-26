@@ -17,16 +17,9 @@ function TrieParA($show)                                // Permet de faire un tr
     return false;
 }
 
-function random_banner() {
-    $randomShow = mt_rand(0, count($randomShow) - 1);
-
-    return $randomShow['images']['banner'];
-}
-
 //$shows = array_filter($shows, 'TrieParA');            // Trie le tableau par la lettre A
 
 //usort($shows, 'TrieAlphabetique');      // Utilisation de la fonction usort pour trier le tableau par ordre alphabetique
-
 
 ?>
 

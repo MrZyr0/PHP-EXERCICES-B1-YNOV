@@ -1,3 +1,16 @@
+<?php
+    require_once(__DIR__.'/src/functions.php');
+
+    $Shows = getShows();
+    $RandomShow = RandomSeries($Shows)['images']['banner'];
+
+    $CotePlusPopulaire = Popularity($Shows);
+    
+
+
+?>
+
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -64,7 +77,7 @@
     <main role="main">
         <!-- Header -->
         <div class="jumbotron" style="position: relative">
-            <div class="jumbotron-background" style="background-image: url('https://www.betaseries.com/images/fonds/banner/159_1451844073.jpg');"></div>
+            <div class="jumbotron-background" style="background-image: url('<?=$RandomShow?>')"></div>
             <div class="container">
                 <h1 class="display-3">AlphaSeries</h1>
                 <p>Retrouvez les meilleures séries TV !</p>
