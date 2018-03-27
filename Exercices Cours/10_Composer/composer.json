@@ -1,0 +1,24 @@
+{
+    "name": "julien/10_composer",
+    "description": "Introduction a composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Julien SEIXAS",
+            "email": "julien.seixas@ynov.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4":{
+            "": "src/"
+        }
+    },
+
+    "require": {
+        "guzzlehttp/guzzle": "^6.3@dev"
+    }
+
+}
