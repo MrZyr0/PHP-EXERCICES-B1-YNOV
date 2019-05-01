@@ -1,4 +1,3 @@
-# PHP7_Julien_SEIXAS
+# PHP-EXERCICES-B1-YNOV
 
-
-Repo des différents exercices et leçons du cours
+Repo contenant tout les différents exercices vu en cours.
